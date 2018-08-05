@@ -1,0 +1,26 @@
+Package: lipidtools
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Date: 2018-08-01
+Author: Alan Ho
+Maintainer: Alan Ho <alanhostatistics@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+  ggplot2 (>= 1.0.1),
+  tidyverse (>= 1.2.1),
+  readxl (>= 1.0.0),
+  magrittr (>= 1.5)
+Depends:
+  ggplot2 (>= 1.0.1),
+  tidyverse (>= 1.2.1),
+  readxl (>= 1.0.0),
+  magrittr (>= 1.5),
+  broom (>= 0.5.0)
+Suggests:
+  knitr
+RoxygenNote: 6.0.1
